@@ -8,6 +8,6 @@ router.post('/add', addUser);
 router.get('/:id', getUserById);
 router.put('/:id', editUser);
 router.delete('/:id', deleteUser);
-router.delete('api/search', searchUser);
+router.get('api/search', searchUser);
 
 export default router;
