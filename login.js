@@ -2,7 +2,7 @@ function validate(){
     var password = document.getElementById("password").value;
 
     if(password == 1234){
-        open("adminhome.html");
+        open("index.html");
     }
     else{
         alert("كلمة السر خاطئة");
